@@ -53,7 +53,7 @@ img {
   }
 
 
-/* ==================BODY ==================*/
+/* ================== BODY ==================*/
 body{
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -62,14 +62,14 @@ body{
     
 }
 
-/* ==================CONTAINER ==================*/
+/* ================== CONTAINER ==================*/
 .container {
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-/* ==================HEADER ==================*/
+/* ===================== HEADER =====================*/
 
 .top-header {
     border-bottom: 1px solid #e7e9fc;
@@ -149,7 +149,10 @@ display: block;
 .address-link:focus {
     color: #404BBF
 }
+
+
 /* ==================MAIN ==================*/
+
 /* ==================SECTION 1 ==================*/
 
 .first-section{
@@ -195,14 +198,14 @@ background: var(--OCEAN, #404BBF);
 }
 
 /* ==================SECTION 2 ==================*/
-/* below goes to all sections 2-3-4 */
+
 
 .second-section{
     line-height: 1.2;
-    padding: 120 px 0;
+    padding: 120px 0;
 }
 
-.section-title{
+.second-section-title{
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-size: 36px;
@@ -241,22 +244,73 @@ margin-bottom: 8px;
     margin: 0;
 }
 
-/* SECTION 3 */
+/* ===================SECTION 3 =========================*/
 
 .third-section{
     background: var(--CLOUD, #F4F4FD);
     line-height: 1.11;
-    padding: 120px;
+    padding: 120px 0;
+}
+
+.third-section-title{
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+margin-bottom: 72px;
 }
 
 .third-section-list {
-
-background: var(--WHITE, #FFF);
+    display: flex;
+    gap: 24px;
 }
 
+.third-section-item {
+background: var(--WHITE, #FFF);
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
 
+third-section-item-text {
+    padding: 32px 0;
+}
 
-/* ==================FOOTER ==================*/
+.third-section-text {
+    color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20px;
+font-weight: 500;
+line-height: 1.2; /* 120% */
+letter-spacing: 0.02em;
+padding: 32px 0;
+text-align:center;
+}
+
+.third-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em; 
+    text-align:center;
+    padding: 32px 0
+}
+
+/* ===================SECTION 4 =================== */
+
+.fourth-section-title{
+    color: var(--NAVY-BLUE, #2E2F42);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 1.11; /* 111.111% */
+letter-spacing: 0.02em;
+text-transform: capitalize;
+}
+
+/* ======================FOOTER =====================*/
 
 .section-footer {
     background: var(--NAVY-BLUE, #2E2F42);
