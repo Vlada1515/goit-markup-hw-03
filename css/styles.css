@@ -208,16 +208,18 @@ background: var(--OCEAN, #404BBF);
     padding: 120px 0;
 }
 
-.second-section-title{
+
+
+/* .second-section-title{
     color: var(--NAVY-BLUE, #2E2F42);
 text-align: center;
 font-size: 36px;
 font-weight: 700;
 line-height: 1.11; /* 111.111% */
-letter-spacing: 0.02em;
+/* letter-spacing: 0.02em;
 text-transform: capitalize;
 margin-bottom: 72px;
-}
+} */ 
 
 .second-section-list {
     display: flex;
